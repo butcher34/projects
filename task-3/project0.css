@@ -1,0 +1,236 @@
+body{
+    background-color:#3a3843;
+}
+header{
+    border:solid;
+    width: 100%;
+    height: 30%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
+#header1,#header2{
+    position: relative;
+    width: 100%;
+    height: 33%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+#header1{
+    height: 
+    position: absolute;
+    background-color: #232f3e;
+    padding: 10px;
+    padding-left: 200px;
+}
+#rightside{
+    position: relative;
+    right: -50%;
+    height: 100%;
+}
+#leftside{
+    position: relative;
+    top: -100%;
+   
+    text-decoration-color: white;
+    
+}
+#h1a{
+    color: white;
+    text-decoration: none; 
+}
+#egypt{
+    position: relative;
+    top: 14px;
+}
+#header2{
+    background-color: white;
+}
+#logo{
+     position: relative;
+    right: -35%;
+}
+#SC{
+    position: relative;
+    left: -56%;
+}
+input{
+    position: relative;
+    right: -30%;
+    top: -30px;
+    width: 50%;
+    height: 30px;
+}
+#wellcom{
+    position: relative;
+    bottom: 71%;
+    left: 23%;
+}
+#header3{
+     width: 100%;
+  position: relative;
+  top: 0;
+    right:42px;
+    padding-top: 30px;
+    height: 30px;
+    background-color: #e8ebee;
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto  auto auto auto auto auto auto ;
+    grid-gap: 20px;
+    justify-content: center;
+}
+#souqfashion{
+    position: relative;
+    right: 0%;
+    top: -9%;
+}
+.h3a{
+    text-decoration: none;
+    color: black;
+}
+#souqfashioncontent,.hidden{
+    text-align: right;
+    display:none;
+    background-color: black;
+    position: absolute;
+    top:101%;
+    right: 0%;
+    width: 101%;
+    height: 30px;padding-top: 5px;
+   
+   
+    
+}
+#souqfashionapper,.appear{   
+    display: inline-block;
+    height: 70px;
+    
+}
+#souqfashionapper:hover #souqfashioncontent {
+   display: inline-block;
+    color: white;
+    
+}
+.hiddensouqfashionA:hover{color: aqua;}
+.appear:hover{
+    position: relative;
+    top:-40%;
+    text-align: center;
+    height: 55px;
+    box-sizing: border-box;
+    padding:20px; 
+    border-top: solid blue 4px; 
+    background-color: white;
+    
+}
+#marketapper:hover #markethidden {
+    background-color: white;
+   display: inline-block;    
+}
+#phoneappear:hover #phonehiddencontent{
+     display: grid;
+}
+#elec:hover #elechidden{
+     display: grid;
+}
+.hidden{
+    position: absolute;
+    background-color: #3a3843;
+        height: 670%;
+        width: 1000%;
+        right: -700%;
+        padding: 20px;
+    padding-bottom: 100px;
+    grid-gap: 10px;
+    grid-template-areas: 'ad1 ad2 ad3 ad4 ad5 ad6'
+}
+#elechidden{
+    width: 1300%
+}
+#cloumn1{
+    grid-area: ad6;
+}
+#cloumn2{
+    grid-area: ad5;
+}
+#cloumn3{
+    grid-area: ad4;
+}
+#cloumn4{
+    grid-area: ad3;
+}
+#cloumn5{
+    grid-area: ad2;
+}
+#cloumn6{
+    grid-area: ad1;
+}
+.hidden a{
+    display: block;
+    color: white;
+    font-size: 18px;
+}
+
+#firsttable{
+    position:relative;
+    top: 35%;
+    left: 2%;
+    width: 90%;
+    height: 800px;
+    padding-bottom: 300px;
+    display: grid;
+     grid-template-areas: 
+        'fr fr fr fr fr'
+        'a b c d e'
+        'ad same same same same'
+        'ad same same same same'
+        'ad2 same same same same'
+        'ad2 same same same same';
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+#d1{
+    grid-area: fr;
+    width: 10px;
+    
+    
+}
+#add{
+    width:1400px;
+    position: relative;
+    left:300%;
+}
+#d2{
+   grid-area: a; 
+    
+}
+#d3{
+   grid-area: b; 
+    
+}
+#d4{
+   grid-area: c; 
+   
+}
+#d5{
+   grid-area: d; 
+    
+}
+#d6{
+   grid-area: e; 
+    
+}
+#d7{
+   grid-area: ad; 
+}
+#d8{
+   grid-area: ad2; 
+
+}
+#d9{
+   grid-area: same; 
+}
+
